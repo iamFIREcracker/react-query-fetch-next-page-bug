@@ -1,4 +1,3 @@
-import "./App.css";
 import { useInfiniteQuery } from "react-query";
 import { useEffect, useState } from "react";
 
