@@ -143,7 +143,7 @@ function App() {
           <details open>
             <p>
               Refreshed data (i.e. the first page worth of data) will be shown
-              after the background data-fetching is over (around 2s)
+              after the background data-fetching is over (around 2s).
             </p>
           </details>
         </section>
@@ -152,7 +152,14 @@ function App() {
           <details open>
             <p>
               The cached data (i.e. the empty array) is returned, immediately,
-              and the background refetch aborted
+              and the background refetch aborted.
+            </p>
+            <p>
+              Now try it again ("Profile" screen, and then "Search" screen
+              again), but this time wait for the background refetch to complete:
+              after around 2 seconds you should see the first page of data, and
+              clicking the "Load more" button will now fetch the next page worth
+              of data.
             </p>
           </details>
         </section>
